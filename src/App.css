@@ -10,13 +10,13 @@
 }
 .input {
   min-height: 32px;
-  border: 1px solid black;
+  border: 1px dotted magenta;
   padding: 0 8px;
 }
 .button {
   min-height: 32px;
-  border: 1px solid black;
-  background-color: black;
+  border: 1px dotted magenta;
+  background-color: purple;
   color: white;
   padding: 0 8px;
 }
