@@ -1,9 +1,7 @@
-import "./Button.css"
+import "./Button.css";
 
-function Button () {
-    <button className="button">Sign in</button>
+function Button() {
+  return <button className="button">Sign in</button>;
 }
 
-
-
-export default Button; 
+export default Button;
