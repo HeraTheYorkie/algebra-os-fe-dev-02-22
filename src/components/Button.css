@@ -1,0 +1,10 @@
+.button {
+    min-height: 32px;
+    border: 1px dotted magenta;
+    background-color: purple;
+    color: white;
+    padding: 0 8px;
+    
+  }
+  
+  
