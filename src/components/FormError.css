@@ -1,4 +1,4 @@
-.button {
+.form-error {
     min-height: 32px;
     border: 1px dotted magenta;
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
@@ -6,8 +6,3 @@
     padding: 0 8px;
     
   }
-
-  .button + .button{
-    margin-left: 4px;
-  }
-  
