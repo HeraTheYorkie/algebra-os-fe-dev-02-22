@@ -4,10 +4,6 @@ import Button from "./components/Button";
 import FormError from "./components/FormError";
 import FormMessage from "./components/FormMessage";
 
-
-
-
-
 function App() {
   const isSignedIn = false;
 
@@ -23,8 +19,8 @@ function App() {
         <Button type="button">Sign in</Button>
         <Button type="reset">Reset</Button>
       </div>
-      <FormError visible={!isSignedIn}/> 
-      <FormMessage visible={isSignedIn}/> 
+      <FormError visible={!isSignedIn} />
+      <FormMessage visible={isSignedIn} />
     </form>
   );
 }
