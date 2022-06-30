@@ -7,5 +7,6 @@
     background: linear-gradient(135deg, #f6d365 0%, #ed1414 100%);
     color: white;
     padding: 8px 8px;
+    border-radius: 60%;
     
   }
