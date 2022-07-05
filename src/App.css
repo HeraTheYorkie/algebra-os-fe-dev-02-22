@@ -5,4 +5,38 @@
   margin-top: 16px;
 }
 
+select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid magenta;
+  min-height: 32px;
+  padding: 0 8px;
+}
 
+input[type="checkbox"],
+input[type="radio"] {
+  width: 1em;
+  height: 1em;
+  border: 1px solid magenta;
+  transform: translateY(0.075em);
+  display: inline-block;
+  margin-right: 0.5em;
+}
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background-color: magenta;
+  box-shadow: inset 0 0 0 2px white;
+}
+input[type="radio"] {
+  border-radius: 100%;
+}
+
+.message-list {
+  width: calc(100% - 32px);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.message-list .message {
+  margin: 16px 0;
+}
